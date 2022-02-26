@@ -1,4 +1,4 @@
-import Item from '../nva-item/Item'
+import Item from '../nav-item/Item'
 import styled from 'styled-components'
 
 export default function Navbar(){
