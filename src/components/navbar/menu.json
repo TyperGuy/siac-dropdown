@@ -16,7 +16,8 @@
       {
         "title" : "Mais Outra Coisa",
         "desc" : "alguma coisa por dizer",
-        "to": "/destino"
+        "to": "/destino",
+        "isLink":true
       },
       {
         "title" : "Última Coisa",
@@ -44,7 +45,8 @@
       {
         "title" : "Alguma Coisa",
         "desc" : "alguma coisa por dizer",
-        "to": "/destino"
+        "to": "/destino",
+        "isLink" :true
       },
       {
         "title" : "Outra Coisa",
@@ -59,7 +61,8 @@
       {
         "title" : "Última Coisa por dizer",
         "desc" : "alguma coisa por dizer",
-        "to": "/destino"
+        "to": "/destino",
+        "isLink" :true
       },
       {
         "title" : "Outra Coisa",
@@ -69,7 +72,8 @@
       {
         "title" : "Mais Outra Coisa",
         "desc" : "alguma coisa por dizer",
-        "to": "/destino"
+        "to": "/destino",
+        "isLink" :true
       },
       {
         "title" : "Última Coisa Por tentar",

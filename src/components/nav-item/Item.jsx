@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import Style from './Item.module.scss'
 import {BsChevronRight as Arrow} from 'react-icons/bs'
+import {FiArrowUpRight as LinkAerrow} from 'react-icons/fi'
 
 
  
 
 export default function Item(props){
-  const [visible, setVisible] = useState('none');
 
   return(
     <>
@@ -24,7 +24,7 @@ export default function Item(props){
                         <a href={item.to}>{item.title}</a>
                         <span>{item.desc}</span>
                       </div> 
-                      <Arrow className={Style.arrow}/>
+                      {item.isLink?<LinkAerrow className={Style.arrow}/>:<Arrow className={Style.arrow}/>}
                     </div>
                   )
                 })
