@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import Style from './Item.module.css'
+import Style from './Item.module.scss'
+import {BsChevronRight as Arrow} from 'react-icons/bs'
 
 
  
@@ -18,9 +19,12 @@ export default function Item(props){
               {
                 props.menu.map((item)=>{
                   return(
-                    <div className={Style.link}>
-                      <a href={item.to}>{item.title}</a>
-                      <span>{item.desc}</span>
+                    <div className={Style.linkContainer}>
+                      <div className={Style.link} >
+                        <a href={item.to}>{item.title}</a>
+                        <span>{item.desc}</span>
+                      </div> 
+                      <Arrow className={Style.arrow}/>
                     </div>
                   )
                 })
