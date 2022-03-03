@@ -7,9 +7,7 @@
   border: none;
   background-color: #ffffff;
 }
-.dropbtn:hover {
-  background-color: #04AA6D;
-}
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -38,7 +36,7 @@
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+.dropdown:hover .dropbtn {background-color: #0d7abd;color: #ffff;} 
 
 .linkContainer{
   width:100%;
@@ -63,7 +61,7 @@
 
 .arrow {
   visibility: hidden;
-  color: #3e8e41;
+  color: #0d7abd;
 
   :hover > & {
     visibility: visible;
@@ -81,7 +79,7 @@
   color: rgb(148, 148, 148);
 }
 .link a:hover{
-  color: #3e8e41;
+  color: #0d7abd;
 }
 
 .marker{
